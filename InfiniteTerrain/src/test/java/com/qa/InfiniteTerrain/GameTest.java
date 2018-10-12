@@ -6,12 +6,10 @@ import org.junit.Test;
 public class GameTest {
 	
 	@Test
-	public static void test() {
+	public void test() {
 		Game player = new Game();
 		
-		assertTrue(player.distMonsterMin()>0.0);
-		
-		player.move('n');
+		assertTrue(player.distMonsterMin() > 0.0);
 	}
 
 }

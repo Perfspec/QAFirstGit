@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class App 
 {
-	/*
+	
    public static void main( String[] args )
     {
     	Scanner input = new Scanner(System.in);
@@ -12,7 +12,6 @@ public class App
     	
     	while(!player.foundTreasure()) {
     		
-    		System.out.println("Move: n, s, e, w.");
     		player.move(input.next().charAt(0));
     		if(player.foundMonster()) {
     			player.flee();
@@ -25,15 +24,5 @@ public class App
     	System.out.println("Now click your heels together and repeat,");
     	System.out.println("There's no place like home.");
     	
-    }*/
-    
-	public static void main( String[] args ) {
-		Scanner input = new Scanner(System.in);
-    	Game player = new Game();
-    	
-    	System.out.println(player.distMonsterMin());
-    	
-    	input.close();
-	}
-	
+    }	
 }
